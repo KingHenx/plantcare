@@ -2,7 +2,7 @@
 
 app to help keep track of house plants and their water needs
 
-technologies used:
+technologies used:/n
 React Native,
 Expo,
 Firebase (storage and user authentication),
