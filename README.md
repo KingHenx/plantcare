@@ -4,15 +4,15 @@ app to help keep track of house plants and their water needs
 
 technologies used:
 
-React Native,
+-React Native
 
-Expo,
+-Expo
 
-Firebase (storage and user authentication),
+-Firebase (storage and user authentication)
 
-react native tooltips,
+-react native tooltips
 
-expo/vectors Entypo icons,
+-expo/vectors Entypo icons
 
-expo notifications,
+-expo notifications
 
