@@ -8,8 +8,6 @@ import { Entypo } from '@expo/vector-icons';
 export default function PlantList({ navigation }) {
 
     const [plants, setPlants] = useState([]);
-    const currentUser = firebaseAuth.currentUser ? firebaseAuth.currentUser : null;
-    const [date, setDate] = useState();
 
     const handleLogout = () => {
         firebaseAuth.signOut()
@@ -36,7 +34,6 @@ export default function PlantList({ navigation }) {
     useEffect(() => {
         const enter = navigation.addListener('focus', () => {
             getPlants();
-            setDate(new Date());
         });
         return enter;
     }, [navigation]);
